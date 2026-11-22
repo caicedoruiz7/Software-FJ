@@ -1,0 +1,78 @@
+2026-11-22 15:16:01 | INFO | === Programa iniciado ===
+2026-11-22 15:16:01 | INFO | Cliente registrado: Cliente Ana Gómez (doc 1010202030)
+2026-11-22 15:16:01 | DEBUG | Terminó registrar_cliente
+2026-11-22 15:16:01 | ERROR | registrar_cliente: El correo no es válido: luis-sin-arroba
+2026-11-22 15:16:01 | DEBUG | Terminó registrar_cliente
+2026-11-22 15:16:01 | ERROR | registrar_cliente: El nombre es obligatorio y debe tener al menos 3 letras
+2026-11-22 15:16:01 | DEBUG | Terminó registrar_cliente
+2026-11-22 15:16:01 | ERROR | registrar_cliente: Ya existe un cliente con documento 1010202030
+2026-11-22 15:16:01 | DEBUG | Terminó registrar_cliente
+2026-11-22 15:16:01 | INFO | Cliente registrado: Cliente Carlos Ruiz (doc 80123456)
+2026-11-22 15:16:01 | DEBUG | Terminó registrar_cliente
+2026-11-22 15:16:01 | INFO | Servicio creado: Sala Sala Ejecutiva para 25 personas
+2026-11-22 15:16:01 | ERROR | crear_servicio: La capacidad debe ser un entero mayor que cero | causa: None
+2026-11-22 15:16:01 | INFO | Servicio creado: Equipo Proyector (Video)
+2026-11-22 15:16:01 | INFO | Servicio creado: Asesoría de Analítica (nivel senior)
+2026-11-22 15:16:01 | ERROR | crear_servicio: La tarifa debe ser un número | causa: could not convert string to float: 'abc'
+2026-11-22 15:16:01 | ERROR | crear_servicio: parámetros incorrectos (AsesoriaEspecializada.__init__() missing 2 required positional arguments: 'tarifa_hora' and 'especialidad')
+2026-11-22 15:16:01 | INFO | Servicio creado: Sala Sala en Mantenimiento para 10 personas
+2026-11-22 15:16:01 | INFO | Reserva creada: Reserva 11 [PENDIENTE] - Ana Gómez - Sala Ejecutiva (3 h)
+2026-11-22 15:16:01 | INFO | Reserva 11 confirmada
+2026-11-22 15:16:01 | INFO | Reserva 11 procesada. Total: 282744.0
+2026-11-22 15:16:01 | DEBUG | Terminó el intento de procesar la reserva 11
+2026-11-22 15:16:01 | ERROR | crear_reserva: Duración no válida para esta reserva | causa: Una sala se reserva de 1 a 12 horas
+2026-11-22 15:16:01 | ERROR | crear_reserva: Sala en Mantenimiento no está disponible | causa: None
+2026-11-22 15:16:01 | ERROR | crear_reserva: No existe un cliente con documento 99999999 | causa: None
+2026-11-22 15:16:01 | INFO | Reserva creada: Reserva 14 [PENDIENTE] - Carlos Ruiz - Proyector (24 h)
+2026-11-22 15:16:01 | ERROR | Solo se procesan reservas confirmadas
+2026-11-22 15:16:01 | DEBUG | Terminó el intento de procesar la reserva 14
+2026-11-22 15:16:01 | INFO | Reserva 14 cancelada
+2026-11-22 15:16:01 | DEBUG | Terminó el intento de cancelar la reserva 14
+2026-11-22 15:16:01 | ERROR | No se puede cancelar una reserva en estado CANCELADA
+2026-11-22 15:16:01 | DEBUG | Terminó el intento de cancelar la reserva 14
+2026-11-22 15:16:01 | INFO | Reserva creada: Reserva 15 [PENDIENTE] - Ana Gómez - Asesoría Datos (2 h)
+2026-11-22 15:16:01 | INFO | Reserva 15 confirmada
+2026-11-22 15:16:01 | ERROR | Error al procesar la reserva 15: El descuento debe estar entre 0 y 1 (sin incluir 1)
+2026-11-22 15:16:01 | DEBUG | Terminó el intento de procesar la reserva 15
+2026-11-22 15:16:01 | INFO | Reserva 15 procesada. Total: 428400.0
+2026-11-22 15:16:01 | DEBUG | Terminó el intento de procesar la reserva 15
+2026-11-22 15:16:01 | INFO | === Programa finalizado ===
+2026-11-22 10:49:28 | INFO | === Programa iniciado ===
+2026-11-22 10:49:28 | INFO | Cliente registrado: Cliente Ana Gómez (doc 1010202030)
+2026-11-22 10:49:28 | DEBUG | Terminó registrar_cliente
+2026-11-22 10:49:28 | ERROR | registrar_cliente: El correo no es válido: luis-sin-arroba
+2026-11-22 10:49:28 | DEBUG | Terminó registrar_cliente
+2026-11-22 10:49:28 | ERROR | registrar_cliente: El nombre es obligatorio y debe tener al menos 3 letras
+2026-11-22 10:49:28 | DEBUG | Terminó registrar_cliente
+2026-11-22 10:49:28 | ERROR | registrar_cliente: Ya existe un cliente con documento 1010202030
+2026-11-22 10:49:28 | DEBUG | Terminó registrar_cliente
+2026-11-22 10:49:28 | INFO | Cliente registrado: Cliente Carlos Ruiz (doc 80123456)
+2026-11-22 10:49:28 | DEBUG | Terminó registrar_cliente
+2026-11-22 10:49:28 | INFO | Servicio creado: Sala Sala Ejecutiva para 25 personas
+2026-11-22 10:49:28 | ERROR | crear_servicio: La capacidad debe ser un entero mayor que cero | causa: None
+2026-11-22 10:49:28 | INFO | Servicio creado: Equipo Proyector (Video)
+2026-11-22 10:49:28 | INFO | Servicio creado: Asesoría de Analítica (nivel senior)
+2026-11-22 10:49:28 | ERROR | crear_servicio: La tarifa debe ser un número | causa: could not convert string to float: 'abc'
+2026-11-22 10:49:28 | ERROR | crear_servicio: parámetros incorrectos (AsesoriaEspecializada.__init__() missing 2 required positional arguments: 'tarifa_hora' and 'especialidad')
+2026-11-22 10:49:28 | INFO | Servicio creado: Sala Sala en Mantenimiento para 10 personas
+2026-11-22 10:49:28 | INFO | Reserva creada: Reserva 11 [PENDIENTE] - Ana Gómez - Sala Ejecutiva (3 h)
+2026-11-22 10:49:28 | INFO | Reserva 11 confirmada
+2026-11-22 10:49:28 | INFO | Reserva 11 procesada. Total: 282744.0
+2026-11-22 10:49:28 | DEBUG | Terminó el intento de procesar la reserva 11
+2026-11-22 10:49:28 | ERROR | crear_reserva: Duración no válida para esta reserva | causa: Una sala se reserva de 1 a 12 horas
+2026-11-22 10:49:28 | ERROR | crear_reserva: Sala en Mantenimiento no está disponible | causa: None
+2026-11-22 10:49:28 | ERROR | crear_reserva: No existe un cliente con documento 99999999 | causa: None
+2026-11-22 10:49:28 | INFO | Reserva creada: Reserva 14 [PENDIENTE] - Carlos Ruiz - Proyector (24 h)
+2026-11-22 10:49:28 | ERROR | Solo se procesan reservas confirmadas
+2026-11-22 10:49:28 | DEBUG | Terminó el intento de procesar la reserva 14
+2026-11-22 10:49:28 | INFO | Reserva 14 cancelada
+2026-11-22 10:49:28 | DEBUG | Terminó el intento de cancelar la reserva 14
+2026-11-22 10:49:28 | ERROR | No se puede cancelar una reserva en estado CANCELADA
+2026-11-22 10:49:28 | DEBUG | Terminó el intento de cancelar la reserva 14
+2026-11-22 10:49:28 | INFO | Reserva creada: Reserva 15 [PENDIENTE] - Ana Gómez - Asesoría Datos (2 h)
+2026-11-22 10:49:28 | INFO | Reserva 15 confirmada
+2026-11-22 10:49:28 | ERROR | Error al procesar la reserva 15: El descuento debe estar entre 0 y 1 (sin incluir 1)
+2026-11-22 10:49:28 | DEBUG | Terminó el intento de procesar la reserva 15
+2026-11-22 10:49:28 | INFO | Reserva 15 procesada. Total: 428400.0
+2026-11-22 10:49:28 | DEBUG | Terminó el intento de procesar la reserva 15
+2026-11-22 10:49:28 | INFO | === Programa finalizado ===
